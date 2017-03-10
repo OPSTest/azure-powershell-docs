@@ -1,3 +1,5 @@
+- name: Index
+  href: ../conceptual/3.1/index.md
 - name: ServiceFabric
   items:
     - name: Add-ServiceFabricNode
