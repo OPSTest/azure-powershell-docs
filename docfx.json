@@ -127,6 +127,38 @@
       },
       {
         "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "src": "azrmps/3.6.0",
+        "version": "azrmps-3.6.0",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ],
+        "dest": "module"
+      },
+      {
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "src": "azrmps/conceptual/3.6.0",
+        "version": "azrmps-3.6.0",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ]
+      },
+
+      {
+        "files": [
           "*.md",
           "*.yml"
         ]
@@ -144,6 +176,9 @@
       },
       "azservicefabricps-3.1": {
         "dest": "azservicefabricps-3.1"
+      },
+      "azrmps-3.6.0": {
+        "dest": "azrmps-3.6.0"
       }
     },
     "dest": "testMultipleVersion"

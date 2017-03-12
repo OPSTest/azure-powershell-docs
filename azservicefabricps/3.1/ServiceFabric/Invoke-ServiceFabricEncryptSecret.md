@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-schema: 2.0.0
 ms.assetid: FE8B509E-E427-43B4-920D-B6392449788A
-updated_at: '11/03/2016 08:11 AM'
-ms.date: 11/03/2016
+schema: 2.0.0
+updated_at: '03/07/2017 13:03 PM'
+ms.date: 03/07/2017
 content_git_url: 'https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptSecret.md'
 original_content_git_url: 'https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptSecret.md'
-gitcommit: 'https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c'
+gitcommit: 'https://github.com/Azure/azure-docs-powershell-servicefabric/blob/756d0cca5125866a4d8f54b5303b6ea13ac82ffb'
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -16,7 +16,8 @@ keywords: 'powershell, cmdlet'
 # Invoke-ServiceFabricEncryptSecret
 
 ## SYNOPSIS
-Encrypts text in the cluster manifest by using a certificate.
+Obsolete
+Please use [Invoke-ServiceFabricEncryptText](./Invoke-ServiceFabricEncryptText.md) cmdlet.
 
 ## SYNTAX
 
@@ -26,9 +27,7 @@ Invoke-ServiceFabricEncryptSecret [-CertThumbPrint] <String> [-CertStoreLocation
 ```
 
 ## DESCRIPTION
-The **Invoke-ServiceFabricEncryptSecret** cmdlet encrypts text in the Service Fabric cluster manifest by using a certificate.
-
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
+The **Invoke-ServiceFabricEncryptSecret** cmdlet is obsolete. Please use [Invoke-ServiceFabricEncryptText](./Invoke-ServiceFabricEncryptText.md) cmdlet.
 
 ## EXAMPLES
 
@@ -49,10 +48,10 @@ The default location is MY.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -64,10 +63,10 @@ Specifies the thumbprint of the certificate to use for encrypting.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -79,10 +78,10 @@ Specifies the string to encrypt.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

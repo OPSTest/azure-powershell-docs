@@ -1,558 +1,556 @@
 - name: Index
   href: ../conceptual/2.0.0.52/index.md
-- name: AzureAD
+  - name: AzureAD
+  href: AzureAD\AzureActiveDirectory.md
   items:
+    - name: Get-AzureADUserAppRoleAssignment
+      href: AzureAD\Get-AzureADUserAppRoleAssignment.md
     - name: Add-AzureADAdministrativeUnitMember
       href: AzureAD\Add-AzureADAdministrativeUnitMember.md
-    - name: Add-AzureADApplicationOwner
-      href: AzureAD\Add-AzureADApplicationOwner.md
-    - name: Add-AzureADApplicationPolicy
-      href: AzureAD\Add-AzureADApplicationPolicy.md
-    - name: Add-AzureADDeviceRegisteredOwner
-      href: AzureAD\Add-AzureADDeviceRegisteredOwner.md
-    - name: Add-AzureADDeviceRegisteredUser
-      href: AzureAD\Add-AzureADDeviceRegisteredUser.md
-    - name: Add-AzureADDirectoryRoleMember
-      href: AzureAD\Add-AzureADDirectoryRoleMember.md
+    - name: Get-AzureADServicePrincipalCreatedObject
+      href: AzureAD\Get-AzureADServicePrincipalCreatedObject.md
     - name: Add-AzureADGroupMember
       href: AzureAD\Add-AzureADGroupMember.md
+    - name: Add-AzureADApplicationPolicy
+      href: AzureAD\Add-AzureADApplicationPolicy.md
+    - name: Add-AzureADDirectoryRoleMember
+      href: AzureAD\Add-AzureADDirectoryRoleMember.md
+    - name: Add-AzureADDeviceRegisteredUser
+      href: AzureAD\Add-AzureADDeviceRegisteredUser.md
+    - name: Add-AzureADServicePrincipalOwner
+      href: AzureAD\Add-AzureADServicePrincipalOwner.md
+    - name: Add-AzureADApplicationOwner
+      href: AzureAD\Add-AzureADApplicationOwner.md
+    - name: Get-AzureADApplication
+      href: AzureAD\Get-AzureADApplication.md
+    - name: Add-AzureADDeviceRegisteredOwner
+      href: AzureAD\Add-AzureADDeviceRegisteredOwner.md
+    - name: Get-AzureADApplicationServiceEndpoint
+      href: AzureAD\Get-AzureADApplicationServiceEndpoint.md
+    - name: Confirm-AzureADDomain
+      href: AzureAD\Confirm-AzureADDomain.md
+    - name: Get-AzureADApplicationPasswordCredential
+      href: AzureAD\Get-AzureADApplicationPasswordCredential.md
+    - name: Enable-AzureADDirectoryRole
+      href: AzureAD\Enable-AzureADDirectoryRole.md
+    - name: Disconnect-AzureAD
+      href: AzureAD\Disconnect-AzureAD.md
+    - name: Get-AzureADApplicationOwner
+      href: AzureAD\Get-AzureADApplicationOwner.md
+    - name: Connect-AzureAD
+      href: AzureAD\Connect-AzureAD.md
+    - name: Get-AzureADApplicationPolicy
+      href: AzureAD\Get-AzureADApplicationPolicy.md
+    - name: Get-AzureADAdministrativeUnit
+      href: AzureAD\Get-AzureADAdministrativeUnit.md
+    - name: Get-AzureADApplicationLogo
+      href: AzureAD\Get-AzureADApplicationLogo.md
+    - name: Get-AzureADContact
+      href: AzureAD\Get-AzureADContact.md
+    - name: Get-AzureADAdministrativeUnitMember
+      href: AzureAD\Get-AzureADAdministrativeUnitMember.md
+    - name: Get-AzureADApplicationKeyCredential
+      href: AzureAD\Get-AzureADApplicationKeyCredential.md
+    - name: Get-AzureADContactManager
+      href: AzureAD\Get-AzureADContactManager.md
+    - name: Get-AzureADContactDirectReport
+      href: AzureAD\Get-AzureADContactDirectReport.md
+    - name: Get-AzureADApplicationExtensionProperty
+      href: AzureAD\Get-AzureADApplicationExtensionProperty.md
+    - name: Get-AzureADContactMembership
+      href: AzureAD\Get-AzureADContactMembership.md
+    - name: Get-AzureADContract
+      href: AzureAD\Get-AzureADContract.md
+    - name: Get-AzureADDirectoryRoleTemplate
+      href: AzureAD\Get-AzureADDirectoryRoleTemplate.md
+    - name: Get-AzureADDeviceRegisteredOwner
+      href: AzureAD\Get-AzureADDeviceRegisteredOwner.md
+    - name: Get-AzureADDeviceConfiguration
+      href: AzureAD\Get-AzureADDeviceConfiguration.md
+    - name: Get-AzureADContactThumbnailPhoto
+      href: AzureAD\Get-AzureADContactThumbnailPhoto.md
+    - name: Get-AzureADDomain
+      href: AzureAD\Get-AzureADDomain.md
+    - name: Get-AzureADDirectorySetting
+      href: AzureAD\Get-AzureADDirectorySetting.md
+    - name: Get-AzureADDirectoryRoleMember
+      href: AzureAD\Get-AzureADDirectoryRoleMember.md
+    - name: Get-AzureADDeviceRegisteredUser
+      href: AzureAD\Get-AzureADDeviceRegisteredUser.md
+    - name: Get-AzureADDomainServiceConfigurationRecord
+      href: AzureAD\Get-AzureADDomainServiceConfigurationRecord.md
+    - name: Get-AzureADExtensionProperty
+      href: AzureAD\Get-AzureADExtensionProperty.md
+    - name: Get-AzureADGroupOwner
+      href: AzureAD\Get-AzureADGroupOwner.md
+    - name: Get-AzureADPolicyAppliedObject
+      href: AzureAD\Get-AzureADPolicyAppliedObject.md
+    - name: Get-AzureADDirectoryRole
+      href: AzureAD\Get-AzureADDirectoryRole.md
+    - name: Get-AzureADGroupAppRoleAssignment
+      href: AzureAD\Get-AzureADGroupAppRoleAssignment.md
+    - name: Get-AzureADGroup
+      href: AzureAD\Get-AzureADGroup.md
+    - name: Get-AzureADDomainVerificationDnsRecord
+      href: AzureAD\Get-AzureADDomainVerificationDnsRecord.md
+    - name: Get-AzureADDirectorySettingTemplate
+      href: AzureAD\Get-AzureADDirectorySettingTemplate.md
+    - name: Get-AzureADServicePrincipalOAuth2PermissionGrant
+      href: AzureAD\Get-AzureADServicePrincipalOAuth2PermissionGrant.md
+    - name: Get-AzureADScopedRoleMembership
+      href: AzureAD\Get-AzureADScopedRoleMembership.md
+    - name: Get-AzureADServicePrincipalOwner
+      href: AzureAD\Get-AzureADServicePrincipalOwner.md
+    - name: Get-AzureADServicePrincipal
+      href: AzureAD\Get-AzureADServicePrincipal.md
+    - name: Get-AzureADObjectSetting
+      href: AzureAD\Get-AzureADObjectSetting.md
+    - name: Get-AzureADServicePrincipalOwnedObject
+      href: AzureAD\Get-AzureADServicePrincipalOwnedObject.md
+    - name: Get-AzureADOAuth2PermissionGrant
+      href: AzureAD\Get-AzureADOAuth2PermissionGrant.md
+    - name: Get-AzureADMSGroup
+      href: AzureAD\Get-AzureADMSGroup.md
+    - name: Get-AzureADServicePrincipalMembership
+      href: AzureAD\Get-AzureADServicePrincipalMembership.md
+    - name: Get-AzureADObjectByObjectId
+      href: AzureAD\Get-AzureADObjectByObjectId.md
+    - name: Get-AzureADTenantDetail
+      href: AzureAD\Get-AzureADTenantDetail.md
+    - name: Add-AzureADServicePrincipalPolicy
+      href: AzureAD\Add-AzureADServicePrincipalPolicy.md
+    - name: Get-AzureADServiceAppRoleAssignment
+      href: AzureAD\Get-AzureADServiceAppRoleAssignment.md
+    - name: Get-AzureADServicePrincipalPolicy
+      href: AzureAD\Get-AzureADServicePrincipalPolicy.md
+    - name: Get-AzureADPolicy
+      href: AzureAD\Get-AzureADPolicy.md
+    - name: Get-AzureADServicePrincipalKeyCredential
+      href: AzureAD\Get-AzureADServicePrincipalKeyCredential.md
+    - name: Get-AzureADSubscribedSku
+      href: AzureAD\Get-AzureADSubscribedSku.md
+    - name: Get-AzureADServiceConfigurationRecord
+      href: AzureAD\Get-AzureADServiceConfigurationRecord.md
     - name: Add-AzureADGroupOwner
       href: AzureAD\Add-AzureADGroupOwner.md
     - name: Add-AzureADScopedRoleMembership
       href: AzureAD\Add-AzureADScopedRoleMembership.md
-    - name: Add-AzureADServicePrincipalOwner
-      href: AzureAD\Add-AzureADServicePrincipalOwner.md
-    - name: Add-AzureADServicePrincipalPolicy
-      href: AzureAD\Add-AzureADServicePrincipalPolicy.md
-    - name: AzureActiveDirectory
-      href: AzureAD\AzureActiveDirectory.md
-    - name: Confirm-AzureADDomain
-      href: AzureAD\Confirm-AzureADDomain.md
-    - name: Connect-AzureAD
-      href: AzureAD\Connect-AzureAD.md
-    - name: Disconnect-AzureAD
-      href: AzureAD\Disconnect-AzureAD.md
-    - name: Enable-AzureADDirectoryRole
-      href: AzureAD\Enable-AzureADDirectoryRole.md
-    - name: Get-AzureADAdministrativeUnit
-      href: AzureAD\Get-AzureADAdministrativeUnit.md
-    - name: Get-AzureADAdministrativeUnitMember
-      href: AzureAD\Get-AzureADAdministrativeUnitMember.md
-    - name: Get-AzureADApplication
-      href: AzureAD\Get-AzureADApplication.md
-    - name: Get-AzureADApplicationExtensionProperty
-      href: AzureAD\Get-AzureADApplicationExtensionProperty.md
-    - name: Get-AzureADApplicationKeyCredential
-      href: AzureAD\Get-AzureADApplicationKeyCredential.md
-    - name: Get-AzureADApplicationLogo
-      href: AzureAD\Get-AzureADApplicationLogo.md
-    - name: Get-AzureADApplicationOwner
-      href: AzureAD\Get-AzureADApplicationOwner.md
-    - name: Get-AzureADApplicationPasswordCredential
-      href: AzureAD\Get-AzureADApplicationPasswordCredential.md
-    - name: Get-AzureADApplicationPolicy
-      href: AzureAD\Get-AzureADApplicationPolicy.md
-    - name: Get-AzureADApplicationServiceEndpoint
-      href: AzureAD\Get-AzureADApplicationServiceEndpoint.md
-    - name: Get-AzureADContact
-      href: AzureAD\Get-AzureADContact.md
-    - name: Get-AzureADContactDirectReport
-      href: AzureAD\Get-AzureADContactDirectReport.md
-    - name: Get-AzureADContactManager
-      href: AzureAD\Get-AzureADContactManager.md
-    - name: Get-AzureADContactMembership
-      href: AzureAD\Get-AzureADContactMembership.md
-    - name: Get-AzureADContactThumbnailPhoto
-      href: AzureAD\Get-AzureADContactThumbnailPhoto.md
-    - name: Get-AzureADContract
-      href: AzureAD\Get-AzureADContract.md
-    - name: Get-AzureADDeletedApplication
-      href: AzureAD\Get-AzureADDeletedApplication.md
-    - name: Get-AzureADDevice
-      href: AzureAD\Get-AzureADDevice.md
-    - name: Get-AzureADDeviceConfiguration
-      href: AzureAD\Get-AzureADDeviceConfiguration.md
-    - name: Get-AzureADDeviceRegisteredOwner
-      href: AzureAD\Get-AzureADDeviceRegisteredOwner.md
-    - name: Get-AzureADDeviceRegisteredUser
-      href: AzureAD\Get-AzureADDeviceRegisteredUser.md
-    - name: Get-AzureADDirectoryRole
-      href: AzureAD\Get-AzureADDirectoryRole.md
-    - name: Get-AzureADDirectoryRoleMember
-      href: AzureAD\Get-AzureADDirectoryRoleMember.md
-    - name: Get-AzureADDirectoryRoleTemplate
-      href: AzureAD\Get-AzureADDirectoryRoleTemplate.md
-    - name: Get-AzureADDirectorySetting
-      href: AzureAD\Get-AzureADDirectorySetting.md
-    - name: Get-AzureADDirectorySettingTemplate
-      href: AzureAD\Get-AzureADDirectorySettingTemplate.md
-    - name: Get-AzureADDomain
-      href: AzureAD\Get-AzureADDomain.md
-    - name: Get-AzureADDomainNameReference
-      href: AzureAD\Get-AzureADDomainNameReference.md
-    - name: Get-AzureADDomainServiceConfigurationRecord
-      href: AzureAD\Get-AzureADDomainServiceConfigurationRecord.md
-    - name: Get-AzureADDomainVerificationDnsRecord
-      href: AzureAD\Get-AzureADDomainVerificationDnsRecord.md
-    - name: Get-AzureADExtensionProperty
-      href: AzureAD\Get-AzureADExtensionProperty.md
-    - name: Get-AzureADGroup
-      href: AzureAD\Get-AzureADGroup.md
-    - name: Get-AzureADGroupAppRoleAssignment
-      href: AzureAD\Get-AzureADGroupAppRoleAssignment.md
-    - name: Get-AzureADGroupMember
-      href: AzureAD\Get-AzureADGroupMember.md
-    - name: Get-AzureADGroupOwner
-      href: AzureAD\Get-AzureADGroupOwner.md
-    - name: Get-AzureADMSGroup
-      href: AzureAD\Get-AzureADMSGroup.md
-    - name: Get-AzureADOAuth2PermissionGrant
-      href: AzureAD\Get-AzureADOAuth2PermissionGrant.md
-    - name: Get-AzureADObjectByObjectId
-      href: AzureAD\Get-AzureADObjectByObjectId.md
-    - name: Get-AzureADObjectSetting
-      href: AzureAD\Get-AzureADObjectSetting.md
-    - name: Get-AzureADPolicy
-      href: AzureAD\Get-AzureADPolicy.md
-    - name: Get-AzureADPolicyAppliedObject
-      href: AzureAD\Get-AzureADPolicyAppliedObject.md
-    - name: Get-AzureADScopedRoleMembership
-      href: AzureAD\Get-AzureADScopedRoleMembership.md
-    - name: Get-AzureADServiceAppRoleAssignment
-      href: AzureAD\Get-AzureADServiceAppRoleAssignment.md
-    - name: Get-AzureADServiceConfigurationRecord
-      href: AzureAD\Get-AzureADServiceConfigurationRecord.md
-    - name: Get-AzureADServicePrincipal
-      href: AzureAD\Get-AzureADServicePrincipal.md
-    - name: Get-AzureADServicePrincipalCreatedObject
-      href: AzureAD\Get-AzureADServicePrincipalCreatedObject.md
-    - name: Get-AzureADServicePrincipalKeyCredential
-      href: AzureAD\Get-AzureADServicePrincipalKeyCredential.md
-    - name: Get-AzureADServicePrincipalMembership
-      href: AzureAD\Get-AzureADServicePrincipalMembership.md
-    - name: Get-AzureADServicePrincipalOAuth2PermissionGrant
-      href: AzureAD\Get-AzureADServicePrincipalOAuth2PermissionGrant.md
-    - name: Get-AzureADServicePrincipalOwnedObject
-      href: AzureAD\Get-AzureADServicePrincipalOwnedObject.md
-    - name: Get-AzureADServicePrincipalOwner
-      href: AzureAD\Get-AzureADServicePrincipalOwner.md
-    - name: Get-AzureADServicePrincipalPasswordCredential
-      href: AzureAD\Get-AzureADServicePrincipalPasswordCredential.md
-    - name: Get-AzureADServicePrincipalPolicy
-      href: AzureAD\Get-AzureADServicePrincipalPolicy.md
-    - name: Get-AzureADSubscribedSku
-      href: AzureAD\Get-AzureADSubscribedSku.md
-    - name: Get-AzureADTenantDetail
-      href: AzureAD\Get-AzureADTenantDetail.md
-    - name: Get-AzureADTrustedCertificateAuthority
-      href: AzureAD\Get-AzureADTrustedCertificateAuthority.md
     - name: Get-AzureADUser
       href: AzureAD\Get-AzureADUser.md
-    - name: Get-AzureADUserAppRoleAssignment
-      href: AzureAD\Get-AzureADUserAppRoleAssignment.md
-    - name: Get-AzureADUserCreatedObject
-      href: AzureAD\Get-AzureADUserCreatedObject.md
-    - name: Get-AzureADUserDirectReport
-      href: AzureAD\Get-AzureADUserDirectReport.md
-    - name: Get-AzureADUserExtension
-      href: AzureAD\Get-AzureADUserExtension.md
-    - name: Get-AzureADUserLicenseDetail
-      href: AzureAD\Get-AzureADUserLicenseDetail.md
-    - name: Get-AzureADUserManager
-      href: AzureAD\Get-AzureADUserManager.md
+    - name: Get-AzureADTrustedCertificateAuthority
+      href: AzureAD\Get-AzureADTrustedCertificateAuthority.md
     - name: Get-AzureADUserMembership
       href: AzureAD\Get-AzureADUserMembership.md
-    - name: Get-AzureADUserOAuth2PermissionGrant
-      href: AzureAD\Get-AzureADUserOAuth2PermissionGrant.md
-    - name: Get-AzureADUserOwnedDevice
-      href: AzureAD\Get-AzureADUserOwnedDevice.md
-    - name: Get-AzureADUserOwnedObject
-      href: AzureAD\Get-AzureADUserOwnedObject.md
-    - name: Get-AzureADUserRegisteredDevice
-      href: AzureAD\Get-AzureADUserRegisteredDevice.md
-    - name: Get-AzureADUserThumbnailPhoto
-      href: AzureAD\Get-AzureADUserThumbnailPhoto.md
-    - name: Get-AzureADVerificationDnsRecord
-      href: AzureAD\Get-AzureADVerificationDnsRecord.md
-    - name: New-AzureADAdministrativeUnit
-      href: AzureAD\New-AzureADAdministrativeUnit.md
+    - name: Get-AzureADUserCreatedObject
+      href: AzureAD\Get-AzureADUserCreatedObject.md
     - name: New-AzureADApplication
       href: AzureAD\New-AzureADApplication.md
-    - name: New-AzureADApplicationExtensionProperty
-      href: AzureAD\New-AzureADApplicationExtensionProperty.md
+    - name: Get-AzureADUserOwnedObject
+      href: AzureAD\Get-AzureADUserOwnedObject.md
+    - name: Get-AzureADUserExtension
+      href: AzureAD\Get-AzureADUserExtension.md
+    - name: New-AzureADAdministrativeUnit
+      href: AzureAD\New-AzureADAdministrativeUnit.md
+    - name: Get-AzureADUserRegisteredDevice
+      href: AzureAD\Get-AzureADUserRegisteredDevice.md
+    - name: Get-AzureADUserManager
+      href: AzureAD\Get-AzureADUserManager.md
+    - name: Get-AzureADVerificationDnsRecord
+      href: AzureAD\Get-AzureADVerificationDnsRecord.md
+    - name: Get-AzureADUserThumbnailPhoto
+      href: AzureAD\Get-AzureADUserThumbnailPhoto.md
+    - name: Get-AzureADUserDirectReport
+      href: AzureAD\Get-AzureADUserDirectReport.md
     - name: New-AzureADApplicationKeyCredential
       href: AzureAD\New-AzureADApplicationKeyCredential.md
     - name: New-AzureADApplicationPasswordCredential
       href: AzureAD\New-AzureADApplicationPasswordCredential.md
-    - name: New-AzureADDevice
-      href: AzureAD\New-AzureADDevice.md
-    - name: New-AzureADDirectorySetting
-      href: AzureAD\New-AzureADDirectorySetting.md
+    - name: New-AzureADApplicationExtensionProperty
+      href: AzureAD\New-AzureADApplicationExtensionProperty.md
+    - name: New-AzureADPolicy
+      href: AzureAD\New-AzureADPolicy.md
+    - name: Get-AzureADUserLicenseDetail
+      href: AzureAD\Get-AzureADUserLicenseDetail.md
     - name: New-AzureADDomain
       href: AzureAD\New-AzureADDomain.md
-    - name: New-AzureADGroup
-      href: AzureAD\New-AzureADGroup.md
     - name: New-AzureADGroupAppRoleAssignment
       href: AzureAD\New-AzureADGroupAppRoleAssignment.md
+    - name: New-AzureADDirectorySetting
+      href: AzureAD\New-AzureADDirectorySetting.md
+    - name: Get-AzureADUserOAuth2PermissionGrant
+      href: AzureAD\Get-AzureADUserOAuth2PermissionGrant.md
     - name: New-AzureADMSGroup
       href: AzureAD\New-AzureADMSGroup.md
     - name: New-AzureADMSInvitation
       href: AzureAD\New-AzureADMSInvitation.md
-    - name: New-AzureADObjectSetting
-      href: AzureAD\New-AzureADObjectSetting.md
-    - name: New-AzureADPolicy
-      href: AzureAD\New-AzureADPolicy.md
     - name: New-AzureADServiceAppRoleAssignment
       href: AzureAD\New-AzureADServiceAppRoleAssignment.md
+    - name: New-AzureADDevice
+      href: AzureAD\New-AzureADDevice.md
     - name: New-AzureADServicePrincipal
       href: AzureAD\New-AzureADServicePrincipal.md
-    - name: New-AzureADServicePrincipalKeyCredential
-      href: AzureAD\New-AzureADServicePrincipalKeyCredential.md
-    - name: New-AzureADServicePrincipalPasswordCredential
-      href: AzureAD\New-AzureADServicePrincipalPasswordCredential.md
-    - name: New-AzureADTrustedCertificateAuthority
-      href: AzureAD\New-AzureADTrustedCertificateAuthority.md
-    - name: New-AzureADUser
-      href: AzureAD\New-AzureADUser.md
-    - name: New-AzureADUserAppRoleAssignment
-      href: AzureAD\New-AzureADUserAppRoleAssignment.md
-    - name: Remove-AzureADAdministrativeUnit
-      href: AzureAD\Remove-AzureADAdministrativeUnit.md
-    - name: Remove-AzureADAdministrativeUnitMember
-      href: AzureAD\Remove-AzureADAdministrativeUnitMember.md
-    - name: Remove-AzureADApplication
-      href: AzureAD\Remove-AzureADApplication.md
-    - name: Remove-AzureADApplicationExtensionProperty
-      href: AzureAD\Remove-AzureADApplicationExtensionProperty.md
-    - name: Remove-AzureADApplicationKeyCredential
-      href: AzureAD\Remove-AzureADApplicationKeyCredential.md
-    - name: Remove-AzureADApplicationOwner
-      href: AzureAD\Remove-AzureADApplicationOwner.md
-    - name: Remove-AzureADApplicationPasswordCredential
-      href: AzureAD\Remove-AzureADApplicationPasswordCredential.md
-    - name: Remove-AzureADApplicationPolicy
-      href: AzureAD\Remove-AzureADApplicationPolicy.md
+    - name: New-AzureADGroup
+      href: AzureAD\New-AzureADGroup.md
     - name: Remove-AzureADContact
       href: AzureAD\Remove-AzureADContact.md
-    - name: Remove-AzureADContactManager
-      href: AzureAD\Remove-AzureADContactManager.md
-    - name: Remove-AzureADDevice
-      href: AzureAD\Remove-AzureADDevice.md
-    - name: Remove-AzureADDeviceRegisteredOwner
-      href: AzureAD\Remove-AzureADDeviceRegisteredOwner.md
+    - name: New-AzureADServicePrincipalPasswordCredential
+      href: AzureAD\New-AzureADServicePrincipalPasswordCredential.md
+    - name: New-AzureADServicePrincipalKeyCredential
+      href: AzureAD\New-AzureADServicePrincipalKeyCredential.md
+    - name: Get-AzureADGroupMember
+      href: AzureAD\Get-AzureADGroupMember.md
+    - name: Set-AzureADTrustedCertificateAuthority
+      href: AzureAD\Set-AzureADTrustedCertificateAuthority.md
+    - name: New-AzureADUser
+      href: AzureAD\New-AzureADUser.md
+    - name: Get-AzureADDomainNameReference
+      href: AzureAD\Get-AzureADDomainNameReference.md
+    - name: Remove-AzureADApplicationExtensionProperty
+      href: AzureAD\Remove-AzureADApplicationExtensionProperty.md
+    - name: New-AzureADObjectSetting
+      href: AzureAD\New-AzureADObjectSetting.md
     - name: Remove-AzureADDeviceRegisteredUser
       href: AzureAD\Remove-AzureADDeviceRegisteredUser.md
-    - name: Remove-AzureADDirectoryRoleMember
-      href: AzureAD\Remove-AzureADDirectoryRoleMember.md
-    - name: Remove-AzureADDirectorySetting
-      href: AzureAD\Remove-AzureADDirectorySetting.md
-    - name: Remove-AzureADDomain
-      href: AzureAD\Remove-AzureADDomain.md
-    - name: Remove-AzureADGroup
-      href: AzureAD\Remove-AzureADGroup.md
-    - name: Remove-AzureADGroupAppRoleAssignment
-      href: AzureAD\Remove-AzureADGroupAppRoleAssignment.md
+    - name: Get-AzureADDevice
+      href: AzureAD\Get-AzureADDevice.md
+    - name: Remove-AzureADApplicationPasswordCredential
+      href: AzureAD\Remove-AzureADApplicationPasswordCredential.md
+    - name: Remove-AzureADApplication
+      href: AzureAD\Remove-AzureADApplication.md
+    - name: Remove-AzureADApplicationKeyCredential
+      href: AzureAD\Remove-AzureADApplicationKeyCredential.md
+    - name: Remove-AzureADApplicationPolicy
+      href: AzureAD\Remove-AzureADApplicationPolicy.md
+    - name: Remove-AzureADAdministrativeUnitMember
+      href: AzureAD\Remove-AzureADAdministrativeUnitMember.md
     - name: Remove-AzureADGroupMember
       href: AzureAD\Remove-AzureADGroupMember.md
-    - name: Remove-AzureADGroupOwner
-      href: AzureAD\Remove-AzureADGroupOwner.md
-    - name: Remove-AzureADMSGroup
-      href: AzureAD\Remove-AzureADMSGroup.md
+    - name: Remove-AzureADAdministrativeUnit
+      href: AzureAD\Remove-AzureADAdministrativeUnit.md
+    - name: Remove-AzureADDomain
+      href: AzureAD\Remove-AzureADDomain.md
+    - name: Remove-AzureADDeviceRegisteredOwner
+      href: AzureAD\Remove-AzureADDeviceRegisteredOwner.md
+    - name: Remove-AzureADDirectorySetting
+      href: AzureAD\Remove-AzureADDirectorySetting.md
+    - name: Remove-AzureADGroupAppRoleAssignment
+      href: AzureAD\Remove-AzureADGroupAppRoleAssignment.md
+    - name: New-AzureADUserAppRoleAssignment
+      href: AzureAD\New-AzureADUserAppRoleAssignment.md
+    - name: Remove-AzureADDirectoryRoleMember
+      href: AzureAD\Remove-AzureADDirectoryRoleMember.md
+    - name: Remove-AzureADContactManager
+      href: AzureAD\Remove-AzureADContactManager.md
     - name: Remove-AzureADOAuth2PermissionGrant
       href: AzureAD\Remove-AzureADOAuth2PermissionGrant.md
-    - name: Remove-AzureADObjectSetting
-      href: AzureAD\Remove-AzureADObjectSetting.md
-    - name: Remove-AzureADPolicy
-      href: AzureAD\Remove-AzureADPolicy.md
+    - name: Remove-AzureADGroupOwner
+      href: AzureAD\Remove-AzureADGroupOwner.md
+    - name: Remove-AzureADApplicationOwner
+      href: AzureAD\Remove-AzureADApplicationOwner.md
+    - name: Remove-AzureADGroup
+      href: AzureAD\Remove-AzureADGroup.md
+    - name: Remove-AzureADMSGroup
+      href: AzureAD\Remove-AzureADMSGroup.md
+    - name: Get-AzureADUserOwnedDevice
+      href: AzureAD\Get-AzureADUserOwnedDevice.md
     - name: Remove-AzureADScopedRoleMembership
       href: AzureAD\Remove-AzureADScopedRoleMembership.md
-    - name: Remove-AzureADServiceAppRoleAssignment
-      href: AzureAD\Remove-AzureADServiceAppRoleAssignment.md
+    - name: Remove-AzureADPolicy
+      href: AzureAD\Remove-AzureADPolicy.md
+    - name: Remove-AzureADDevice
+      href: AzureAD\Remove-AzureADDevice.md
+    - name: Get-AzureADServicePrincipalPasswordCredential
+      href: AzureAD\Get-AzureADServicePrincipalPasswordCredential.md
     - name: Remove-AzureADServicePrincipal
       href: AzureAD\Remove-AzureADServicePrincipal.md
-    - name: Remove-AzureADServicePrincipalKeyCredential
-      href: AzureAD\Remove-AzureADServicePrincipalKeyCredential.md
-    - name: Remove-AzureADServicePrincipalOwner
-      href: AzureAD\Remove-AzureADServicePrincipalOwner.md
+    - name: Remove-AzureADObjectSetting
+      href: AzureAD\Remove-AzureADObjectSetting.md
     - name: Remove-AzureADServicePrincipalPasswordCredential
       href: AzureAD\Remove-AzureADServicePrincipalPasswordCredential.md
-    - name: Remove-AzureADServicePrincipalPolicy
-      href: AzureAD\Remove-AzureADServicePrincipalPolicy.md
     - name: Remove-AzureADTrustedCertificateAuthority
       href: AzureAD\Remove-AzureADTrustedCertificateAuthority.md
-    - name: Remove-AzureADUser
-      href: AzureAD\Remove-AzureADUser.md
-    - name: Remove-AzureADUserAppRoleAssignment
-      href: AzureAD\Remove-AzureADUserAppRoleAssignment.md
     - name: Remove-AzureADUserExtension
       href: AzureAD\Remove-AzureADUserExtension.md
-    - name: Remove-AzureADUserManager
-      href: AzureAD\Remove-AzureADUserManager.md
+    - name: Remove-AzureADServicePrincipalKeyCredential
+      href: AzureAD\Remove-AzureADServicePrincipalKeyCredential.md
     - name: Restore-AzureADDeletedApplication
       href: AzureAD\Restore-AzureADDeletedApplication.md
-    - name: Revoke-AzureADSignedInUserAllRefreshToken
-      href: AzureAD\Revoke-AzureADSignedInUserAllRefreshToken.md
-    - name: Revoke-AzureADUserAllRefreshToken
-      href: AzureAD\Revoke-AzureADUserAllRefreshToken.md
-    - name: Select-AzureADGroupIdsContactIsMemberOf
-      href: AzureAD\Select-AzureADGroupIdsContactIsMemberOf.md
-    - name: Select-AzureADGroupIdsGroupIsMemberOf
-      href: AzureAD\Select-AzureADGroupIdsGroupIsMemberOf.md
     - name: Select-AzureADGroupIdsServicePrincipalIsMemberOf
       href: AzureAD\Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
-    - name: Select-AzureADGroupIdsUserIsMemberOf
-      href: AzureAD\Select-AzureADGroupIdsUserIsMemberOf.md
+    - name: Remove-AzureADServiceAppRoleAssignment
+      href: AzureAD\Remove-AzureADServiceAppRoleAssignment.md
+    - name: Select-AzureADGroupIdsContactIsMemberOf
+      href: AzureAD\Select-AzureADGroupIdsContactIsMemberOf.md
+    - name: Revoke-AzureADUserAllRefreshToken
+      href: AzureAD\Revoke-AzureADUserAllRefreshToken.md
+    - name: Set-AzureADApplicationLogo
+      href: AzureAD\Set-AzureADApplicationLogo.md
+    - name: Revoke-AzureADSignedInUserAllRefreshToken
+      href: AzureAD\Revoke-AzureADSignedInUserAllRefreshToken.md
+    - name: Remove-AzureADServicePrincipalPolicy
+      href: AzureAD\Remove-AzureADServicePrincipalPolicy.md
+    - name: Remove-AzureADUserAppRoleAssignment
+      href: AzureAD\Remove-AzureADUserAppRoleAssignment.md
     - name: Set-AzureADAdministrativeUnit
       href: AzureAD\Set-AzureADAdministrativeUnit.md
     - name: Set-AzureADApplication
       href: AzureAD\Set-AzureADApplication.md
-    - name: Set-AzureADApplicationLogo
-      href: AzureAD\Set-AzureADApplicationLogo.md
-    - name: Set-AzureADContact
-      href: AzureAD\Set-AzureADContact.md
-    - name: Set-AzureADContactManager
-      href: AzureAD\Set-AzureADContactManager.md
-    - name: Set-AzureADDevice
-      href: AzureAD\Set-AzureADDevice.md
     - name: Set-AzureADDirectorySetting
       href: AzureAD\Set-AzureADDirectorySetting.md
-    - name: Set-AzureADDomain
-      href: AzureAD\Set-AzureADDomain.md
+    - name: Select-AzureADGroupIdsUserIsMemberOf
+      href: AzureAD\Select-AzureADGroupIdsUserIsMemberOf.md
+    - name: Set-AzureADContactManager
+      href: AzureAD\Set-AzureADContactManager.md
+    - name: Select-AzureADGroupIdsGroupIsMemberOf
+      href: AzureAD\Select-AzureADGroupIdsGroupIsMemberOf.md
+    - name: Set-AzureADContact
+      href: AzureAD\Set-AzureADContact.md
+    - name: Remove-AzureADUser
+      href: AzureAD\Remove-AzureADUser.md
+    - name: Set-AzureADUserExtension
+      href: AzureAD\Set-AzureADUserExtension.md
+    - name: Set-AzureADObjectSetting
+      href: AzureAD\Set-AzureADObjectSetting.md
+    - name: Remove-AzureADUserManager
+      href: AzureAD\Remove-AzureADUserManager.md
     - name: Set-AzureADGroup
       href: AzureAD\Set-AzureADGroup.md
     - name: Set-AzureADMSGroup
       href: AzureAD\Set-AzureADMSGroup.md
-    - name: Set-AzureADObjectSetting
-      href: AzureAD\Set-AzureADObjectSetting.md
-    - name: Set-AzureADPolicy
-      href: AzureAD\Set-AzureADPolicy.md
     - name: Set-AzureADServicePrincipal
       href: AzureAD\Set-AzureADServicePrincipal.md
+    - name: Set-AzureADDevice
+      href: AzureAD\Set-AzureADDevice.md
+    - name: Set-AzureADPolicy
+      href: AzureAD\Set-AzureADPolicy.md
+    - name: Set-AzureADDomain
+      href: AzureAD\Set-AzureADDomain.md
     - name: Set-AzureADTenantDetail
       href: AzureAD\Set-AzureADTenantDetail.md
-    - name: Set-AzureADTrustedCertificateAuthority
-      href: AzureAD\Set-AzureADTrustedCertificateAuthority.md
-    - name: Set-AzureADUser
-      href: AzureAD\Set-AzureADUser.md
-    - name: Set-AzureADUserExtension
-      href: AzureAD\Set-AzureADUserExtension.md
-    - name: Set-AzureADUserLicense
-      href: AzureAD\Set-AzureADUserLicense.md
+    - name: Get-AzureADDeletedApplication
+      href: AzureAD\Get-AzureADDeletedApplication.md
     - name: Set-AzureADUserManager
       href: AzureAD\Set-AzureADUserManager.md
-    - name: Set-AzureADUserPassword
-      href: AzureAD\Set-AzureADUserPassword.md
     - name: Set-AzureADUserThumbnailPhoto
       href: AzureAD\Set-AzureADUserThumbnailPhoto.md
     - name: Update-AzureADSignedInUserPassword
       href: AzureAD\Update-AzureADSignedInUserPassword.md
+    - name: Set-AzureADUser
+      href: AzureAD\Set-AzureADUser.md
+    - name: Remove-AzureADServicePrincipalOwner
+      href: AzureAD\Remove-AzureADServicePrincipalOwner.md
+    - name: Set-AzureADUserLicense
+      href: AzureAD\Set-AzureADUserLicense.md
+    - name: New-AzureADTrustedCertificateAuthority
+      href: AzureAD\New-AzureADTrustedCertificateAuthority.md
+    - name: Set-AzureADUserPassword
+      href: AzureAD\Set-AzureADUserPassword.md
 - name: MSOnline
+  href: MSOnline\AzureActiveDirectory.md
   items:
-    - name: Add-MsolAdministrativeUnitMember
-      href: MSOnline\Add-MsolAdministrativeUnitMember.md
-    - name: Add-MsolForeignGroupToRole
-      href: MSOnline\Add-MsolForeignGroupToRole.md
-    - name: Add-MsolGroupMember
-      href: MSOnline\Add-MsolGroupMember.md
-    - name: Add-MsolRoleMember
-      href: MSOnline\Add-MsolRoleMember.md
-    - name: Add-MsolScopedRoleMember
-      href: MSOnline\Add-MsolScopedRoleMember.md
-    - name: AzureActiveDirectory
-      href: MSOnline\AzureActiveDirectory.md
-    - name: Confirm-MsolDomain
-      href: MSOnline\Confirm-MsolDomain.md
-    - name: Confirm-MsolEmailVerifiedDomain
-      href: MSOnline\Confirm-MsolEmailVerifiedDomain.md
-    - name: Connect-MsolService
-      href: MSOnline\Connect-MsolService.md
-    - name: Convert-MsolDomainToFederated
-      href: MSOnline\Convert-MsolDomainToFederated.md
-    - name: Convert-MsolDomainToStandard
-      href: MSOnline\Convert-MsolDomainToStandard.md
-    - name: Convert-MsolFederatedUser
-      href: MSOnline\Convert-MsolFederatedUser.md
-    - name: Disable-MsolDevice
-      href: MSOnline\Disable-MsolDevice.md
-    - name: Enable-MsolDevice
-      href: MSOnline\Enable-MsolDevice.md
-    - name: Get-MsolAccountSku
-      href: MSOnline\Get-MsolAccountSku.md
-    - name: Get-MsolAdministrativeUnit
-      href: MSOnline\Get-MsolAdministrativeUnit.md
-    - name: Get-MsolAdministrativeUnitMember
-      href: MSOnline\Get-MsolAdministrativeUnitMember.md
-    - name: Get-MsolAllSettings
-      href: MSOnline\Get-MsolAllSettings.md
-    - name: Get-MsolAllSettingTemplate
-      href: MSOnline\Get-MsolAllSettingTemplate.md
-    - name: Get-MsolCompanyAllowedDataLocation
-      href: MSOnline\Get-MsolCompanyAllowedDataLocation.md
-    - name: Get-MsolCompanyInformation
-      href: MSOnline\Get-MsolCompanyInformation.md
-    - name: Get-MsolContact
-      href: MSOnline\Get-MsolContact.md
     - name: Get-MsolDevice
       href: MSOnline\Get-MsolDevice.md
-    - name: Get-MsolDeviceRegistrationServicePolicy
-      href: MSOnline\Get-MsolDeviceRegistrationServicePolicy.md
-    - name: Get-MsolDirSyncConfiguration
-      href: MSOnline\Get-MsolDirSyncConfiguration.md
-    - name: Get-MsolDirSyncFeatures
-      href: MSOnline\Get-MsolDirSyncFeatures.md
-    - name: Get-MsolDirSyncProvisioningError
-      href: MSOnline\Get-MsolDirSyncProvisioningError.md
-    - name: Get-MsolDomain
-      href: MSOnline\Get-MsolDomain.md
-    - name: Get-MsolDomainFederationSettings
-      href: MSOnline\Get-MsolDomainFederationSettings.md
-    - name: Get-MsolDomainVerificationDns
-      href: MSOnline\Get-MsolDomainVerificationDns.md
-    - name: Get-MsolFederationProperty
-      href: MSOnline\Get-MsolFederationProperty.md
-    - name: Get-MsolGroup
-      href: MSOnline\Get-MsolGroup.md
-    - name: Get-MsolGroupMember
-      href: MSOnline\Get-MsolGroupMember.md
-    - name: Get-MsolHasObjectsWithDirSyncProvisioningErrors
-      href: MSOnline\Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
-    - name: Get-MsolPartnerContract
-      href: MSOnline\Get-MsolPartnerContract.md
-    - name: Get-MsolPartnerInformation
-      href: MSOnline\Get-MsolPartnerInformation.md
-    - name: Get-MsolPasswordPolicy
-      href: MSOnline\Get-MsolPasswordPolicy.md
-    - name: Get-MsolRole
-      href: MSOnline\Get-MsolRole.md
-    - name: Get-MsolRoleMember
-      href: MSOnline\Get-MsolRoleMember.md
-    - name: Get-MsolScopedRoleMember
-      href: MSOnline\Get-MsolScopedRoleMember.md
-    - name: Get-MsolServicePrincipal
-      href: MSOnline\Get-MsolServicePrincipal.md
-    - name: Get-MsolServicePrincipalCredential
-      href: MSOnline\Get-MsolServicePrincipalCredential.md
-    - name: Get-MsolSettings
-      href: MSOnline\Get-MsolSettings.md
-    - name: Get-MsolSettingTemplate
-      href: MSOnline\Get-MsolSettingTemplate.md
-    - name: Get-MsolSubscription
-      href: MSOnline\Get-MsolSubscription.md
-    - name: Get-MsolUser
-      href: MSOnline\Get-MsolUser.md
-    - name: Get-MsolUserByStrongAuthentication
-      href: MSOnline\Get-MsolUserByStrongAuthentication.md
-    - name: Get-MsolUserRole
-      href: MSOnline\Get-MsolUserRole.md
-    - name: New-MsolAdministrativeUnit
-      href: MSOnline\New-MsolAdministrativeUnit.md
-    - name: New-MsolDomain
-      href: MSOnline\New-MsolDomain.md
     - name: New-MsolFederatedDomain
       href: MSOnline\New-MsolFederatedDomain.md
+    - name: Get-MsolSubscription
+      href: MSOnline\Get-MsolSubscription.md
     - name: New-MsolGroup
       href: MSOnline\New-MsolGroup.md
     - name: New-MsolLicenseOptions
       href: MSOnline\New-MsolLicenseOptions.md
+    - name: Add-MsolAdministrativeUnitMember
+      href: MSOnline\Add-MsolAdministrativeUnitMember.md
+    - name: Get-MsolServicePrincipal
+      href: MSOnline\Get-MsolServicePrincipal.md
     - name: New-MsolServicePrincipal
       href: MSOnline\New-MsolServicePrincipal.md
-    - name: New-MsolServicePrincipalAddresses
-      href: MSOnline\New-MsolServicePrincipalAddresses.md
-    - name: New-MsolServicePrincipalCredential
-      href: MSOnline\New-MsolServicePrincipalCredential.md
-    - name: New-MsolSettings
-      href: MSOnline\New-MsolSettings.md
-    - name: New-MsolUser
-      href: MSOnline\New-MsolUser.md
-    - name: New-MsolWellKnownGroup
-      href: MSOnline\New-MsolWellKnownGroup.md
-    - name: Redo-MsolProvisionContact
-      href: MSOnline\Redo-MsolProvisionContact.md
-    - name: Redo-MsolProvisionGroup
-      href: MSOnline\Redo-MsolProvisionGroup.md
-    - name: Redo-MsolProvisionUser
-      href: MSOnline\Redo-MsolProvisionUser.md
-    - name: Remove-MsolAdministrativeUnit
-      href: MSOnline\Remove-MsolAdministrativeUnit.md
-    - name: Remove-MsolAdministrativeUnitMember
-      href: MSOnline\Remove-MsolAdministrativeUnitMember.md
-    - name: Remove-MsolApplicationPassword
-      href: MSOnline\Remove-MsolApplicationPassword.md
-    - name: Remove-MsolContact
-      href: MSOnline\Remove-MsolContact.md
-    - name: Remove-MsolDevice
-      href: MSOnline\Remove-MsolDevice.md
-    - name: Remove-MsolDomain
-      href: MSOnline\Remove-MsolDomain.md
-    - name: Remove-MsolFederatedDomain
-      href: MSOnline\Remove-MsolFederatedDomain.md
-    - name: Remove-MsolForeignGroupFromRole
-      href: MSOnline\Remove-MsolForeignGroupFromRole.md
-    - name: Remove-MsolGroup
-      href: MSOnline\Remove-MsolGroup.md
-    - name: Remove-MsolGroupMember
-      href: MSOnline\Remove-MsolGroupMember.md
-    - name: Remove-MsolRoleMember
-      href: MSOnline\Remove-MsolRoleMember.md
-    - name: Remove-MsolScopedRoleMember
-      href: MSOnline\Remove-MsolScopedRoleMember.md
-    - name: Remove-MsolServicePrincipal
-      href: MSOnline\Remove-MsolServicePrincipal.md
-    - name: Remove-MsolServicePrincipalCredential
-      href: MSOnline\Remove-MsolServicePrincipalCredential.md
-    - name: Remove-MsolSettings
-      href: MSOnline\Remove-MsolSettings.md
+    - name: Connect-MsolService
+      href: MSOnline\Connect-MsolService.md
+    - name: Add-MsolGroupMember
+      href: MSOnline\Add-MsolGroupMember.md
+    - name: Add-MsolRoleMember
+      href: MSOnline\Add-MsolRoleMember.md
+    - name: Add-MsolForeignGroupToRole
+      href: MSOnline\Add-MsolForeignGroupToRole.md
+    - name: Convert-MsolDomainToStandard
+      href: MSOnline\Convert-MsolDomainToStandard.md
+    - name: Disable-MsolDevice
+      href: MSOnline\Disable-MsolDevice.md
+    - name: Convert-MsolDomainToFederated
+      href: MSOnline\Convert-MsolDomainToFederated.md
+    - name: Confirm-MsolDomain
+      href: MSOnline\Confirm-MsolDomain.md
+    - name: Get-MsolContact
+      href: MSOnline\Get-MsolContact.md
+    - name: Get-MsolDirSyncConfiguration
+      href: MSOnline\Get-MsolDirSyncConfiguration.md
+    - name: Get-MsolCompanyAllowedDataLocation
+      href: MSOnline\Get-MsolCompanyAllowedDataLocation.md
+    - name: Confirm-MsolEmailVerifiedDomain
+      href: MSOnline\Confirm-MsolEmailVerifiedDomain.md
+    - name: Add-MsolScopedRoleMember
+      href: MSOnline\Add-MsolScopedRoleMember.md
+    - name: Get-MsolAdministrativeUnit
+      href: MSOnline\Get-MsolAdministrativeUnit.md
+    - name: Get-MsolAllSettingTemplate
+      href: MSOnline\Get-MsolAllSettingTemplate.md
+    - name: Enable-MsolDevice
+      href: MSOnline\Enable-MsolDevice.md
+    - name: Get-MsolAdministrativeUnitMember
+      href: MSOnline\Get-MsolAdministrativeUnitMember.md
+    - name: Convert-MsolFederatedUser
+      href: MSOnline\Convert-MsolFederatedUser.md
+    - name: Get-MsolAccountSku
+      href: MSOnline\Get-MsolAccountSku.md
+    - name: Get-MsolAllSettings
+      href: MSOnline\Get-MsolAllSettings.md
+    - name: Get-MsolDomainFederationSettings
+      href: MSOnline\Get-MsolDomainFederationSettings.md
+    - name: Get-MsolCompanyInformation
+      href: MSOnline\Get-MsolCompanyInformation.md
+    - name: Set-MsolCompanyAllowedDataLocation
+      href: MSOnline\Set-MsolCompanyAllowedDataLocation.md
+    - name: Get-MsolDomainVerificationDns
+      href: MSOnline\Get-MsolDomainVerificationDns.md
     - name: Remove-MsolUser
       href: MSOnline\Remove-MsolUser.md
+    - name: Remove-MsolServicePrincipal
+      href: MSOnline\Remove-MsolServicePrincipal.md
+    - name: Get-MsolGroupMember
+      href: MSOnline\Get-MsolGroupMember.md
+    - name: Set-MsolDirSyncConfiguration
+      href: MSOnline\Set-MsolDirSyncConfiguration.md
+    - name: Set-MsolCompanySettings
+      href: MSOnline\Set-MsolCompanySettings.md
+    - name: Get-MsolUser
+      href: MSOnline\Get-MsolUser.md
+    - name: Set-MsolCompanyMultiNationalEnabled
+      href: MSOnline\Set-MsolCompanyMultiNationalEnabled.md
+    - name: Get-MsolDeviceRegistrationServicePolicy
+      href: MSOnline\Get-MsolDeviceRegistrationServicePolicy.md
+    - name: Get-MsolGroup
+      href: MSOnline\Get-MsolGroup.md
+    - name: Get-MsolRole
+      href: MSOnline\Get-MsolRole.md
+    - name: Get-MsolPasswordPolicy
+      href: MSOnline\Get-MsolPasswordPolicy.md
+    - name: Get-MsolScopedRoleMember
+      href: MSOnline\Get-MsolScopedRoleMember.md
+    - name: Get-MsolSettingTemplate
+      href: MSOnline\Get-MsolSettingTemplate.md
+    - name: Get-MsolDomain
+      href: MSOnline\Get-MsolDomain.md
+    - name: New-MsolDomain
+      href: MSOnline\New-MsolDomain.md
+    - name: Get-MsolHasObjectsWithDirSyncProvisioningErrors
+      href: MSOnline\Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
+    - name: Get-MsolPartnerInformation
+      href: MSOnline\Get-MsolPartnerInformation.md
+    - name: Get-MsolRoleMember
+      href: MSOnline\Get-MsolRoleMember.md
+    - name: Get-MsolFederationProperty
+      href: MSOnline\Get-MsolFederationProperty.md
+    - name: New-MsolServicePrincipalAddresses
+      href: MSOnline\New-MsolServicePrincipalAddresses.md
+    - name: Get-MsolUserByStrongAuthentication
+      href: MSOnline\Get-MsolUserByStrongAuthentication.md
+    - name: Get-MsolServicePrincipalCredential
+      href: MSOnline\Get-MsolServicePrincipalCredential.md
+    - name: New-MsolAdministrativeUnit
+      href: MSOnline\New-MsolAdministrativeUnit.md
+    - name: Get-MsolSettings
+      href: MSOnline\Get-MsolSettings.md
+    - name: New-MsolServicePrincipalCredential
+      href: MSOnline\New-MsolServicePrincipalCredential.md
+    - name: Get-MsolUserRole
+      href: MSOnline\Get-MsolUserRole.md
+    - name: Remove-MsolAdministrativeUnitMember
+      href: MSOnline\Remove-MsolAdministrativeUnitMember.md
+    - name: Remove-MsolDomain
+      href: MSOnline\Remove-MsolDomain.md
+    - name: New-MsolUser
+      href: MSOnline\New-MsolUser.md
+    - name: New-MsolSettings
+      href: MSOnline\New-MsolSettings.md
+    - name: Remove-MsolDevice
+      href: MSOnline\Remove-MsolDevice.md
+    - name: Remove-MsolGroupMember
+      href: MSOnline\Remove-MsolGroupMember.md
+    - name: Remove-MsolApplicationPassword
+      href: MSOnline\Remove-MsolApplicationPassword.md
+    - name: Set-MsolCompanyContactInformation
+      href: MSOnline\Set-MsolCompanyContactInformation.md
+    - name: Redo-MsolProvisionContact
+      href: MSOnline\Redo-MsolProvisionContact.md
+    - name: Remove-MsolContact
+      href: MSOnline\Remove-MsolContact.md
+    - name: New-MsolWellKnownGroup
+      href: MSOnline\New-MsolWellKnownGroup.md
+    - name: Remove-MsolScopedRoleMember
+      href: MSOnline\Remove-MsolScopedRoleMember.md
+    - name: Remove-MsolGroup
+      href: MSOnline\Remove-MsolGroup.md
+    - name: Remove-MsolRoleMember
+      href: MSOnline\Remove-MsolRoleMember.md
+    - name: Remove-MsolAdministrativeUnit
+      href: MSOnline\Remove-MsolAdministrativeUnit.md
+    - name: Remove-MsolFederatedDomain
+      href: MSOnline\Remove-MsolFederatedDomain.md
+    - name: Remove-MsolSettings
+      href: MSOnline\Remove-MsolSettings.md
+    - name: Redo-MsolProvisionGroup
+      href: MSOnline\Redo-MsolProvisionGroup.md
+    - name: Remove-MsolForeignGroupFromRole
+      href: MSOnline\Remove-MsolForeignGroupFromRole.md
+    - name: Get-MsolDirSyncProvisioningError
+      href: MSOnline\Get-MsolDirSyncProvisioningError.md
     - name: Reset-MsolStrongAuthenticationMethodByUpn
       href: MSOnline\Reset-MsolStrongAuthenticationMethodByUpn.md
-    - name: Restore-MsolUser
-      href: MSOnline\Restore-MsolUser.md
+    - name: Set-MsolCompanySecurityComplianceContactInformation
+      href: MSOnline\Set-MsolCompanySecurityComplianceContactInformation.md
     - name: Set-MsolADFSContext
       href: MSOnline\Set-MsolADFSContext.md
     - name: Set-MsolAdministrativeUnit
       href: MSOnline\Set-MsolAdministrativeUnit.md
-    - name: Set-MsolCompanyAllowedDataLocation
-      href: MSOnline\Set-MsolCompanyAllowedDataLocation.md
-    - name: Set-MsolCompanyContactInformation
-      href: MSOnline\Set-MsolCompanyContactInformation.md
-    - name: Set-MsolCompanyMultiNationalEnabled
-      href: MSOnline\Set-MsolCompanyMultiNationalEnabled.md
-    - name: Set-MsolCompanySecurityComplianceContactInformation
-      href: MSOnline\Set-MsolCompanySecurityComplianceContactInformation.md
-    - name: Set-MsolCompanySettings
-      href: MSOnline\Set-MsolCompanySettings.md
-    - name: Set-MsolDeviceRegistrationServicePolicy
-      href: MSOnline\Set-MsolDeviceRegistrationServicePolicy.md
-    - name: Set-MsolDirSyncConfiguration
-      href: MSOnline\Set-MsolDirSyncConfiguration.md
-    - name: Set-MsolDirSyncEnabled
-      href: MSOnline\Set-MsolDirSyncEnabled.md
+    - name: Get-MsolDirSyncFeatures
+      href: MSOnline\Get-MsolDirSyncFeatures.md
     - name: Set-MsolDirSyncFeature
       href: MSOnline\Set-MsolDirSyncFeature.md
-    - name: Set-MsolDomain
-      href: MSOnline\Set-MsolDomain.md
+    - name: Get-MsolPartnerContract
+      href: MSOnline\Get-MsolPartnerContract.md
+    - name: Remove-MsolServicePrincipalCredential
+      href: MSOnline\Remove-MsolServicePrincipalCredential.md
     - name: Set-MsolDomainAuthentication
       href: MSOnline\Set-MsolDomainAuthentication.md
+    - name: Set-MsolSettings
+      href: MSOnline\Set-MsolSettings.md
+    - name: Restore-MsolUser
+      href: MSOnline\Restore-MsolUser.md
+    - name: Set-MsolPasswordPolicy
+      href: MSOnline\Set-MsolPasswordPolicy.md
     - name: Set-MsolDomainFederationSettings
       href: MSOnline\Set-MsolDomainFederationSettings.md
     - name: Set-MsolGroup
       href: MSOnline\Set-MsolGroup.md
     - name: Set-MsolPartnerInformation
       href: MSOnline\Set-MsolPartnerInformation.md
-    - name: Set-MsolPasswordPolicy
-      href: MSOnline\Set-MsolPasswordPolicy.md
-    - name: Set-MsolServicePrincipal
-      href: MSOnline\Set-MsolServicePrincipal.md
-    - name: Set-MsolSettings
-      href: MSOnline\Set-MsolSettings.md
-    - name: Set-MsolUser
-      href: MSOnline\Set-MsolUser.md
     - name: Set-MsolUserLicense
       href: MSOnline\Set-MsolUserLicense.md
-    - name: Set-MsolUserPassword
-      href: MSOnline\Set-MsolUserPassword.md
+    - name: Set-MsolServicePrincipal
+      href: MSOnline\Set-MsolServicePrincipal.md
     - name: Set-MsolUserPrincipalName
       href: MSOnline\Set-MsolUserPrincipalName.md
+    - name: Set-MsolUser
+      href: MSOnline\Set-MsolUser.md
     - name: Update-MsolFederatedDomain
       href: MSOnline\Update-MsolFederatedDomain.md
+    - name: Set-MsolDomain
+      href: MSOnline\Set-MsolDomain.md
+    - name: Redo-MsolProvisionUser
+      href: MSOnline\Redo-MsolProvisionUser.md
+    - name: Set-MsolUserPassword
+      href: MSOnline\Set-MsolUserPassword.md
+    - name: Set-MsolDeviceRegistrationServicePolicy
+      href: MSOnline\Set-MsolDeviceRegistrationServicePolicy.md
+    - name: Set-MsolDirSyncEnabled
+      href: MSOnline\Set-MsolDirSyncEnabled.md
